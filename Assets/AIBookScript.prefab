@@ -1844,28 +1844,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ac5836c5410144eb8d634ef4d93a4f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modelUrl: https://huggingface.co/mgump/CharacterChoiceSampleModel-Llama-3.2-1b/resolve/main/Llama-3.2-1B-Instruct-Q4KM.gguf?download=true
   saveToStreamingAssets: 0
-  maxContextLength: 4096
-  gpuLayers: 0
-  threads: 4
-  maxBatchLength: 512
-  chatTemplate: llama3
-  grammarString: 'root        ::= number space word (space word)* [\\n]?
-
-    word       
-    ::= anychar*
-
-    anychar     ::= [a-zA-Z''-,.!?]
-
-    number     ::= [0-9]
-
-    space      
-    ::= [ ]'
-  temperature: 0
-  topP: 0.9
-  maxTokens: 32
-  chunkSize: 1
+  continueConversationAfterGeneration: 1
+  modelAsset: {fileID: 11400000, guid: bc82fad43e57043a5816b8882138f476, type: 2}
 --- !u!1 &1504941708245519530
 GameObject:
   m_ObjectHideFlags: 0
@@ -5809,6 +5790,8 @@ MonoBehaviour:
   choiceSpacing: 1.2
   choiceOffsetX: 0
   choiceOffsetY: 0.4
+  livesOffsetX: 0
+  livesOffsetY: 0
   titleText: {fileID: 5185504796864705401}
   explanationText: {fileID: 1001875785352638625}
   choiceText: {fileID: 966271820562419927}

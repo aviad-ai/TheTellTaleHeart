@@ -80,7 +80,6 @@ namespace ai.aviad.AIBook
         private void OnGenerationDone(bool success)
         {
             generationState?.Done();
-            runner.DebugContext();
         }
 
         /// <summary>

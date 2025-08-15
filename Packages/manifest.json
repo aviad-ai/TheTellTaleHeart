@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "ai.aviad.core": "https://github.com/aviad-ai/unity.git#0.1.0",
+    "ai.aviad.core": "file:/Users/michaelgump/aviad-github/aviad-ai/plugins/unity",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.8.2",
     "com.unity.feature.development": "1.0.2",

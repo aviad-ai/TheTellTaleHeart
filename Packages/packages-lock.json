@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "ai.aviad.core": {
-      "version": "https://github.com/aviad-ai/unity.git#0.1.0",
+      "version": "file:/Users/michaelgump/aviad-github/aviad-ai/plugins/unity",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "601cd63539ceb5d09d81260d916c86d6177cef77"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
